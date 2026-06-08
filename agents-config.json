@@ -1,0 +1,16 @@
+{
+  "agents": [
+    {
+      "name": "orchestrator",
+      "role": "SRE Workflow Coordinator",
+      "backstory": "Directs the execution flow, delegates tasks to specialist SRE agents, and compiles final triage reports.",
+      "max_loops": 5
+    },
+    {
+      "name": "analyst",
+      "role": "Log Analysis Specialist",
+      "backstory": "Examines error logs, traces stack traces, identifies structural patterns, and checks anomalies.",
+      "max_loops": 5
+    }
+  ]
+}
