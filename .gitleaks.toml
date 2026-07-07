@@ -1,6 +1,8 @@
-[allowlist]
+[[allowlists]]
   paths = [
     '''README\.md''',
+    '''SECURITY\.md''',
+    '''\.env\.example''',
     '''docs/.*''',
     '''CHANGELOG\.md''',
     '''\.github/.*'''
